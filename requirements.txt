@@ -1,4 +1,53 @@
-altgraph @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
-future @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
-macholib @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
-six @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
+absl-py==2.1.0
+appdirs==1.4.4
+astunparse==1.6.3
+atomicwrites==1.4.0
+backports.weakref==1.0.post1
+clyent==1.2.2
+conda-repo-cli==1.0.75
+conda-verify==3.4.2
+distlib==0.3.9
+et-xmlfile==1.1.0
+fastapi==0.115.12
+flatbuffers==24.3.25
+fonttools==4.25.0
+gast==0.6.0
+google-pasta==0.2.0
+grpcio==1.64.1
+h11==0.14.0
+h5py==3.11.0
+huggingface-hub==0.29.3
+inflection==0.5.1
+jsonpointer==2.1
+keras==3.4.1
+libclang==18.1.1
+ml-dtypes==0.3.2
+munkres==1.1.4
+namex==0.0.8
+openpyxl==3.0.10
+opt-einsum==3.3.0
+optree==0.12.1
+patsy==0.5.3
+pipenv==2024.4.0
+ply==3.11
+protobuf==3.20.3
+pyasn1-modules==0.2.8
+PyDispatcher==2.0.5
+pyls-spyder==0.4.0
+PyQt5==5.15.10
+PyQtWebEngine==5.15.6
+python-lsp-jsonrpc==1.0.0
+python-multipart==0.0.20
+safetensors==0.5.3
+starlette==0.46.1
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorflow==2.16.2
+tensorflow-io-gcs-filesystem==0.37.1
+termcolor==2.4.0
+tf_keras==2.16.0
+tokenizers==0.21.1
+transformers==4.50.3
+uvicorn==0.34.0
+virtualenv==20.28.1
+webencodings==0.5.1
