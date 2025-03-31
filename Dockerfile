@@ -9,7 +9,7 @@ COPY app.py .
 
 RUN echo ${PWD} && ls -lR
 
-COPY /model /app/model  # Assuming the model is stored in the "model" folder
+COPY model ./model  # Assuming the model is stored in the "model" folder
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
