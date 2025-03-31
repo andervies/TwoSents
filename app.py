@@ -4,7 +4,8 @@ from pydantic import BaseModel
 from model_pipeline import SentimentAnalyzer
 
 app = FastAPI()
-analyzer = SentimentAnalyzer(PATH_TO_H5_MODEL)
+model_path = "/app/model/"
+analyzer = SentimentAnalyzer(model_path)
 
 
 class TextRequest(BaseModel):
