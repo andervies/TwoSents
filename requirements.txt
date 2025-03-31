@@ -1,29 +1,6 @@
-absl-py==2.1.0
-astunparse==1.6.3
 fastapi==0.115.12
-flatbuffers==24.3.25
-gast==0.6.0
-google-pasta==0.2.0
-grpcio==1.64.1
-h11==0.14.0
-h5py==3.11.0
-huggingface-hub==0.29.3
-inflection==0.5.1
-keras==3.4.1
-ml-dtypes==0.3.2
-namex==0.0.8
-opt-einsum==3.3.0
-optree==0.12.1
-protobuf==3.20.3
-safetensors==0.5.3
-starlette==0.46.1
-tensorboard==2.16.2
-tensorboard-data-server==0.7.2
-tensorflow==2.16.2
-tensorflow-io-gcs-filesystem==0.37.1
-termcolor==2.4.0
-tf_keras==2.16.0
-tokenizers==0.21.1
-transformers==4.50.3
 uvicorn==0.34.0
-python-multipart==0.0.20
+transformers==4.30.0  # Newer versions use more RAM
+huggingface-hub==0.19.4  # Required by transformers
+protobuf==3.20.3  # Critical for TensorFlow
+numpy==1.26.4  # Required by TensorFlow/Transformers
