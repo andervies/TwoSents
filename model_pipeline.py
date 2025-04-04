@@ -1,6 +1,5 @@
 import tensorflow as tf
 from transformers import TFBertForSequenceClassification, BertTokenizer, TFDistilBertForSequenceClassification
-import numpy as np
 
 
 class SentimentAnalyzer:
